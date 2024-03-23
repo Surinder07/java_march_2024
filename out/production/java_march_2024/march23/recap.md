@@ -33,3 +33,35 @@ method, function
 testMethod
 
 
+
+
+## Logical Ops
+/*
+&& -- AND operator  ,  condition && condition  
+|| -- OR operator , condition && condition
+!  -- NOT opeator ,
+
+
+        AND 
+        Condition1   condition 2   -  result 
+        T              T           -   True
+        T              F           -  false
+        F              T           -  false
+        F              F           -  false
+        
+        OR 
+         Condition1   condition 2   -  result 
+        T              T           -   True
+        T              F           -   True
+        F              T           -   True
+        F              F           -  false
+        
+        NOT operator 
+        !
+        true --- false 
+        false --- true 
+        
+        
+        
+        
+         */
