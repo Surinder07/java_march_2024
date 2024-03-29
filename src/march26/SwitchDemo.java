@@ -6,12 +6,22 @@ public class SwitchDemo {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your input ");
+        System.out.println("Welcome to My calculator ");
+        System.out.println(" 1. Press 1 for addition");
+        System.out.println(" 2. Press 2 for multiplication");
+        System.out.println(" 3. Press 3 for sub");
+        System.out.println(" 4. Press 4 for div");
+        System.out.println(" 5. Press 5 for Modulus");
+        System.out.println(" 6. Press 0 for exit");
+
+        System.out.print("Enter your choice : ");
         int input = scanner.nextInt();
 
         switch (input){
             case 1 :
-                System.out.println("Switch on the fan");
+
+                //
+
                 break;
             case 2 :
                 System.out.println("Switch on the Red bulb");
@@ -35,17 +45,6 @@ public class SwitchDemo {
 
    Please enter your input : 2
    calculate multiplication ,
-
-
-
-
-
-
-
-
-
-
-
 
  */
 
