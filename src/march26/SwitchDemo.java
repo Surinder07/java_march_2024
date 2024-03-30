@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class SwitchDemo {
     public static void main(String[] args) {
 
+
+        System.out.println("Do you still want to continue? Press 'Y' = yes , Press 'N' for No");
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to My calculator ");
         System.out.println(" 1. Press 1 for addition");
@@ -17,11 +20,18 @@ public class SwitchDemo {
         System.out.print("Enter your choice : ");
         int input = scanner.nextInt();
 
+        System.out.println("Enter the first Number ");
+        int num1 = scanner.nextInt();
+
+        System.out.println("Enter the second Number ");
+        int num2 = scanner.nextInt();
+
+        int sum;
         switch (input){
             case 1 :
 
-                //
-
+                sum = num1 + num2;
+                System.out.println("Sum of num1 and num2  :"+ sum);
                 break;
             case 2 :
                 System.out.println("Switch on the Red bulb");
