@@ -15,6 +15,13 @@ ls -l
 
 // grep , sort 
 
+## Grep 
+## Sort
+
+
+## Permissions
+
+
 
 OWNER      GROUP       PUBLIC
 create a file -- change permission 
