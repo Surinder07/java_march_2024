@@ -18,14 +18,7 @@ public class Demo {
         2. 20 --- Sorry Try again
         3. 55 -- You won $50000.
 
-
-
-
          */
-
-
-
-
 
       /*  for (int i = 0; i <=10 ; i++) {
             System.out.println(i);
