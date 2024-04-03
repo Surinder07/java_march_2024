@@ -30,8 +30,11 @@ public class Student {
     // Arguments
     */
 
-      public String askName(String name){ // parameter
+      public String askName(String name ){ // parameter
+          //
           return "Sonu";
+
+
       }
 
       public void muteOptions(){
@@ -42,7 +45,22 @@ public class Student {
 
 
 
+/*
 
+Create a class called Rectangle
+variables - width , length
+
+1. create a method to calcualte area
+2. create a method to calculate perimeter
+
+main -- to call these methods to print area and perimeter.
+
+Circle
+radius
+area and circumeference.
+
+
+ */
 
 
 
