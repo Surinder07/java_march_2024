@@ -47,4 +47,19 @@ git init ---  to initilize empty repo  , first time process
 58d1d48 Added index.css file
 
 
+git init                === > to init the repo 
+
+git add .               ----> to add files to git staging area 
+git commit -m "message"  ----> to save the local copy, snapshot 
+
+git push                ----> to push the code to github 
+
+
+changes on github 
+
+
+
+
+
+
 
