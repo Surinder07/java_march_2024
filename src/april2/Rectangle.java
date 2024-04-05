@@ -3,8 +3,8 @@ package april2;
 public class Rectangle {
 
     // variables
-    double width =100.23;
-    double length = 200.02;
+    double width;
+    double length;
     double area;
 
     /*public void calculateArea(){
