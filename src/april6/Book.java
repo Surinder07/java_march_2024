@@ -12,10 +12,12 @@ public class Book {
     }
 
     public Book(String nameOfBook) {
+
         this.nameOfBook = nameOfBook;
     }
 
     public Book(String nameOfBook, String authorName) {
+
         this.nameOfBook = nameOfBook;
         this.authorName = "something";
     }
