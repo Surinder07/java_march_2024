@@ -13,17 +13,22 @@ Branch - pointer to a commit
 
 copy of the exiting branch 
 
+#
+main
+ |
+staging
+ |
+develop
 
-git branch branch_name -- to create branch 
-git checkout branch_name -- to switch to another 
 
-current branch -                  main 
-                                    |   
-                                staging
-                                    |
-                                develop
-creating a branch from it 
 
+## git branch commands 
+git checkout -b branch_name  ===>  create and switch branch at same time. 
+git branch                  ===> to check the current branch
+git checkout branch         ====> switch to another branch 
+git switch                  ====> switch to another branch
+git branch -d branch_name   ====>
+git branch --help          =====> list remote branched also 
 
 
 
