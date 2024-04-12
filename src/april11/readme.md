@@ -34,8 +34,12 @@ git branch --help          =====> list remote branched also
 
 
 
+develop ----- some more files 
+staging ----   less files 
+main   ---- same as staging 
 
 
+git merge -- merge changes from develop --->  staging 
 
 
 
