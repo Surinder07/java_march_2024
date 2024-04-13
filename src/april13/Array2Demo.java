@@ -23,6 +23,8 @@ public class Array2Demo {
            sum = sum + arr[i];
         }
 
+        System.out.println(sum);
+
     }
 }
 /*
@@ -30,5 +32,10 @@ public class Array2Demo {
 integer array ----- > arr  = {23,44,23,52,54,23,87,87}
 
 print the sum of integers .
+
+
+2.   arr  = {10,20,30,40,50,60,70}
+
+   OP ---- {70,60,50,40,30,20,10}
 
  */
