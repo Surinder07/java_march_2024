@@ -38,4 +38,14 @@ print the sum of integers .
 
    OP ---- {70,60,50,40,30,20,10}
 
+start ------->
+end   <--------
+
+temp = arr[7]
+arr[7] = arr[0];
+arr[0] = temp
+
+start ++;
+end --;
+
  */
