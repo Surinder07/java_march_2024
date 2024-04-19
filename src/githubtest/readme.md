@@ -23,3 +23,12 @@ git stash apply
 git stash pop 
 
 
+add to staging area -----> commit [commit id ]  ------->  push [remote ]
+
+
+## git reset 
+
+git reset file_name
+
+                        add .               commit          push
+working directory ----- staging area --------commit --------remote 
