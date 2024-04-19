@@ -23,3 +23,22 @@ git stash apply
 git stash pop 
 
 
+cherry pick 
+
+pick a commit ------------> add it somewhere 
+
+
+rebase 
+------
+
+
+
+
+
+
+
+
+
+
+
+
