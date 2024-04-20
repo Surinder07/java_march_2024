@@ -1,0 +1,11 @@
+# all logs file
+*.log
+
+
+
+# .exe files
+*.exe
+
+
+# packages
+.jar
