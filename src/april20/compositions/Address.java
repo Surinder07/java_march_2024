@@ -12,4 +12,9 @@ public class Address {
         this.country = country;
         this.postalCode = postalCode;
     }
+
+    @Override
+    public String toString() {
+        return street;
+    }
 }

@@ -34,6 +34,19 @@ Has-A relationship
 Employee has Address 
 
 
+## Encapsulation 
+
+wrapping of data into single unit 
+control your data 
+
+
+
+
+
+
+
+
+
 
 
 
