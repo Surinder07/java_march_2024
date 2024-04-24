@@ -24,3 +24,13 @@ public class LoginMain {
 
     }
 }
+/*
+1. TextEditor    --- Read/Write
+
+2. PragraWordEditor  ----> read only  , example : pdf files
+
+
+
+
+
+ */

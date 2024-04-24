@@ -41,6 +41,23 @@ control your data
 
 
 
+##  final ? 
+
+final variables ---- >  constant 
+final method   ----- >  You can not inherit the method 
+final Class     ----- > Can not be extended 
+
+
+how to make immutable class ? 
+
+
+
+
+## Polymorphism 
+
+
+## Abtraction 
+
 
 
 
