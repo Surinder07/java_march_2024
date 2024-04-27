@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="dd098e7d-59fb-4d03-b3cd-af5cf3f264a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_march_2024/api/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_march_2024/api/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_march_2024/assignments/object_oriented_programming_assignment.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_march_2024/assignments/object_oriented_programming_assignment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april27/media/VideoMediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/april27/media/VideoMediaPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/april27/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/april27/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments/object_oriented_programming_assignment.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments/object_oriented_programming_assignment.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +37,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sunny/IdeaProjects/java_march_2024/src/githubtest&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/sunny/IdeaProjects/java_march_2024/src/april27/pack/C",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/april27/pack/C" />
       <recent name="$PROJECT_DIR$/src/githubtest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">

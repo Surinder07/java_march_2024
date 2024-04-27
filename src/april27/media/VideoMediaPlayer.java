@@ -6,3 +6,27 @@ public interface VideoMediaPlayer extends MediaPlayer{
 
 
 }
+
+/*
+            Caculator     Camera           Computer             MusicPlayer
+
+            |               |               |           |
+                          SmartPhone
+                           |
+                          Iphone
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
