@@ -47,7 +47,6 @@ its unique behaviors, such as a lion roaring and a penguin swimming. Design the 
 addition of new animal types with minimal code changes.
 
 ================
-
 Problem statement 2
 
 Create an interface NotificationSender with a method sendNotification(String message) to represent the 
