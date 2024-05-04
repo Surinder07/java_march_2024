@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dd098e7d-59fb-4d03-b3cd-af5cf3f264a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_march_2024/april30/Demo/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_march_2024/april30/Demo/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_march_2024/april30/customexceptions/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_march_2024/april30/customexceptions/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_march_2024/cicd/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_march_2024/cicd/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/may4/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/may4/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,33 +60,7 @@
       <recent name="april27.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataTypesDemo">
-    <configuration name="BankMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="april30.customexceptions.BankMain" />
-      <module name="java_march_2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="april30.customexceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckedException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="april30.CheckedException" />
-      <module name="java_march_2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="april30.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DataTypesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="march19.DataTypesDemo" />
       <module name="java_march_2024" />
@@ -113,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="may4.Main" />
+      <module name="java_march_2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="may4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="april30.Demo.Test" />
       <module name="java_march_2024" />
@@ -126,13 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="may4.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="may4.Demo" />
+      <module name="java_march_2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="may4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.may4.Demo" />
         <item itemvalue="Application.DataTypesDemo" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.BankMain" />
-        <item itemvalue="Application.CheckedException" />
       </list>
     </recent_temporary>
   </component>

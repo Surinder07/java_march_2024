@@ -32,7 +32,9 @@ Collections --- only works with Objects not primitive
 
 ## Generics 
 
-Class<T>  -- type 
+data type 
+primitive  ---- int float  
+non primitive  -- String class Array
 
 
 

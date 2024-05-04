@@ -48,19 +48,36 @@ IDE
 
 
 
+.jar - java archive  
+.war
+
+
+Code  ----> .jar file ----> installed on server
+intelli.exe ----- > on PC
+
+
+Code  ----> cruddemoapp-0.0.1-SNAPSHOT.jar
+
+
+=========================================
+
+
+Github code  ------> Maven ----> Build [Bunled code / .jar file ] ----> Test  ---> QA------> staging ----> Production env
+                                                                        Computer 
+Automation tool 
 
 
 
 
 
+manual 
 
 
 
+CRON 
 
 
-
-
-
+Step1 : Step 2 
 
 
 
