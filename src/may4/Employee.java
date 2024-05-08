@@ -21,7 +21,10 @@ public class Employee<T, R> {
 class Main {
     public static void main(String[] args) {
 
-        Employee<String, String> employee = new Employee<String, String>("101","Pragra");
+        Employee<String, String> employee = new Employee<>("101", "Pragra");
+        System.out.println(employee);
+
+        Employee<Integer, Integer> employee2 = new Employee<>(101,101);
         System.out.println(employee);
 
     }

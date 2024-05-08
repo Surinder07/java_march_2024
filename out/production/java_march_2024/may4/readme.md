@@ -32,9 +32,21 @@ Collections --- only works with Objects not primitive
 
 ## Generics 
 
-data type 
-primitive  ---- int float  
-non primitive  -- String class Array
+Class<T>  -- type 
+
+
+## Collection s
+
+                 List 
+
+ArrayList                 LinkedList 
+[indices]                   [no index] - memory address
+
+List :   [10,230,30,43,34,34,3,43,4,3.......1M]
+
+Read/Search -----> 
+Update      -----> 
+
 
 
 

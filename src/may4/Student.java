@@ -1,5 +1,7 @@
 package may4;
 
+
+
 public final class Student {
 
     private final int id;
@@ -16,5 +18,21 @@ public final class Student {
 
     public String getName() {
         return name;
+    }
+
+
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
+    public static void main(String[] args) {
+        System.out.println("skhagdfjs");
+
+
     }
 }
