@@ -3,6 +3,7 @@ package may8;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 
 public class IteratorDemo {
     public static void main(String[] args) {
@@ -14,8 +15,13 @@ public class IteratorDemo {
         list.add(40);
         list.add(50);
 
+        // this will throw exception
+//        for (Integer e: list) {
+//            list.remove(e);
+//        }
 
-        Iterator<Integer> iterator = list.iterator();
+
+        /*Iterator<Integer> iterator = list.iterator();
 
         while (iterator.hasNext()){
             Integer next = iterator.next();
@@ -23,10 +29,26 @@ public class IteratorDemo {
                 //list.remove(new Integer(10));
                 iterator.remove();
             }
+        }
+        System.out.println(list);*/
 
+        ListIterator<Integer> listIterator = list.listIterator();
+
+        // previous
+        while (listIterator.hasPrevious()) {
+            System.out.println(listIterator.previous());
 
         }
-        System.out.println(list);
+
+        System.out.println();
+
+        // next
+        while (listIterator.hasNext()) {
+            System.out.println(listIterator.next());
+        }
+
+
+
 
 
     }
