@@ -1,7 +1,6 @@
 package may8.set;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class SetDemo {
     public static void main(String[] args) {
@@ -19,8 +18,6 @@ public class SetDemo {
 
         System.out.println(set.contains(445));
 
-
-
         // how to get an element from set ?
         // list.get()
 
@@ -29,11 +26,15 @@ public class SetDemo {
         // for each loop , iterator ....
 
 
+        // Tree Set  :  ascending Order
+
+        TreeSet<Integer> treeSet = new TreeSet<>();
 
 
+        // Problem : 
+        // 10,304,50,203,503,23,30,50,203,503, 22,100
 
-
-
+        List<Integer> list = Arrays.asList(0, 304, 50, 203, 503, 23, 30, 50, 203, 503, 22, 100);
 
 
     }
