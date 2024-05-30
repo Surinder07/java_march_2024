@@ -115,7 +115,51 @@ select * from student;
 -- create table with your name and insert two records.
 -- id name email, course 
 
+[
+ ## STEPS 
+
+-- first
+-- create database
+create database database_name;
+use database_name;
+
+-- create table
+create table table_name(column1, column2....)
+
+show tables;
+-- insert the data
+insert into table_name(column1, column2....)
+values (101, 'something'...)
+]
+
+-- 3 questions [interview ]
+1. joins 
+2. find second hightest salary 
+3. group by , having ... 
+
+--- functions 
 
 
+show databases;
+use Employee;
+
+show tables;
+select * from EMPLOYEE;
+
+-- max salary
+select max(EMPLOYEE_SALARY) from EMPLOYEE;
+
+-- min
+select min(EMPLOYEE_SALARY) from EMPLOYEE;
+
+-- how many employees with salary greater than 50K
+
+select count(EMPLOYEE_SALARY)
+from EMPLOYEE
+where
+EMPLOYEE_SALARy > 50000;
+
+
+-- find the total employees who either from Toronto or salary greater than 40K.
 
 
