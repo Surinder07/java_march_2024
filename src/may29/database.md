@@ -93,6 +93,28 @@ select * from EMPLOYEE where EMPLOYEE_NAME like 'J%' OR EMPLOYEE_ADDRESS = 'Japa
 -- NOT
 select * from EMPLOYEE where NOT EMPLOYEE_ADDRESS = 'Japan';
 
+--
+
+show tables;
+show databases;
+
+create database pragra;
+use pragra;
+
+-- create table
+create table student (student_id int, name varchar(50), email varchar(50));
+
+-- insert data into this table
+insert into student (student_id, name, email)
+values
+(101, 'Ankita', 'abc@gmail.com');
+
+select * from student;
+
+-- 5 mins,
+-- create table with your name and insert two records.
+-- id name email, course 
+
 
 
 
