@@ -53,3 +53,80 @@ agent any
         }
     }
 }
+
+
+======
+
+
+pipeline {
+agent any
+
+    stages {
+        stage('Clone the github repo') {
+            steps {
+                git 'https://github.com/Surinder07/SpringTest.git'
+            }
+        }
+        stage('Check version') {
+            steps {
+                sh 'mvn --version'
+               
+            }
+        }
+        stage('Clean') {
+            steps {
+                sh 'mvn clean'
+               
+            }
+        }
+      
+      stage('Compile') {
+            steps {
+                sh 'mvn compile'
+               
+            }
+        }
+         stage('Install ') {
+            steps {
+                sh 'mvn install'
+               
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'mvn test'
+                echo 'Running test cases...'
+               
+            }
+        }
+        
+        stage('Deploy to dev environement ') {
+            steps {
+                echo 'Deplopying to development env'
+                sleep 10 
+               
+            }
+        }
+        
+         stage('Deploy to Staging environement ') {
+            steps {
+                echo 'Deplopying to staing env'
+                sleep 10
+               
+            }
+        }
+        
+        stage('Deploy to Production  environement ') {
+            steps {
+                echo 'Deplopying to Production  env'
+                sleep 10
+               
+            }
+        }
+      
+    }
+}
+
+
+
+
