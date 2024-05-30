@@ -61,6 +61,39 @@ select * from EMPLOYEE
 where
 EMPLOYEE_ADDRESS = 'Japan';
 
+====
+part 2 
+
+-- LIMIT
+select * from EMPLOYEE limit 5;
+
+-- order by asc
+select * from EMPLOYEE order by EMPLOYEE_NAME;
+
+-- order by dsc
+select * from EMPLOYEE order by EMPLOYEE_NAME DESC;
+
+
+-- fetch records
+-- wildcards LIKE % , _
+
+select * from EMPLOYEE where EMPLOYEE_ADDRESS like 'C%';
+
+
+select * from EMPLOYEE where EMPLOYEE_ADDRESS like 'Ind_a';
+
+-- find all the employees who are from Japan and Name starts with J
+
+-- AND OR NOT
+select * from EMPLOYEE where EMPLOYEE_NAME like 'J%' AND EMPLOYEE_ADDRESS = 'Japan';
+
+-- find all the employees who are from Japan OR Name starts with J
+select * from EMPLOYEE where EMPLOYEE_NAME like 'J%' OR EMPLOYEE_ADDRESS = 'Japan';
+
+-- NOT
+select * from EMPLOYEE where NOT EMPLOYEE_ADDRESS = 'Japan';
+
+
 
 
 
